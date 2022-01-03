@@ -1,0 +1,15 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.bloc {
+  display: flex;
+  background-color: #ececec;
+  justify-content: center;
+  text-align: center;
+}
+
+#game {
+  height: 280px;
+}
