@@ -27,7 +27,7 @@ choixPosible.forEach(choixPosible => choixPosible.addEventListener('click', e =>
 
 function generateComputer() {
     
-    const random = Math.floor(Math.random() * 3)+1;
+    const random = Math.floor(Math.random() * 3);
     if (random === 0) {
         computerChoix ='pierre';
     }
@@ -54,7 +54,6 @@ function resulta() {
     }
     else if (computerChoix === 'feuille' && choixUser === 'ciseaux') {
         result = 'Joueur gagne';
-        userScore ++;
     }
     else if (computerChoix === 'feuille' && choixUser === 'pierre') {
         result = 'Ordi gagne';
