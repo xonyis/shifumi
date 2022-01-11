@@ -24,12 +24,12 @@ h2 {
   display: flex;
   justify-content: space-around;
   left: 25%;
-  top: 30%;
+  top: 35%;
   width: 50%;
-  height: 20em;
+  height: 18em;
   background-color: #fdf8f1;
   border: solid 7px antiquewhite;
-  border-radius: 25px;
+  border-radius: 0px 0px 25px 25px;
   box-shadow: 12px 12px 2px 1px #0000ff33;
 }
 
@@ -121,7 +121,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   left: 25%;
-  top: 20%;
+  top: 25%;
   width: 50%;
   height: 20em;
   background-color: rgb(253, 248, 241);
@@ -134,7 +134,7 @@ h2 {
   position: absolute;
   display: flex;
   left: 49%;
-  top: 75%;
+  margin-top: 20em;
   background-color: #fdf8f1;
   border: solid 7px antiquewhite;
   border-radius: 25px;
